@@ -28,6 +28,8 @@ namespace FormativeGame
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            //HI!!!!
+            //hi
 
             SoundPlayer alertPlayer = new SoundPlayer(Properties.Resources.alert);
 
@@ -52,6 +54,7 @@ namespace FormativeGame
             alertPlayer.Play();
             Refresh();
             Thread.Sleep(2000);
+
         }
     }
 }
